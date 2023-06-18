@@ -1,0 +1,121 @@
+/* This is the menu bar on top  */
+.navbar {
+  background-color: #7289DA !important;
+  border-bottom: 3px solid #ffffff;
+}
+
+.navbar-brand {
+  color: #FFFFFF !important;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-toggler {
+  border: 3px solid #ffffff;
+  border-radius: 50px;
+}
+.navbar-toggler:focus {
+  border: 5px solid #ffffff;
+  box-shadow: none;
+}
+/* Style for the little links */
+.nav-link {
+  color: #FFFFFF;
+  font-size: larger;
+  font-weight: 500;
+}
+
+.navbar-toggler-icon {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/1024px-Hamburger_icon.svg.png);
+  filter: invert(1)
+}
+
+/* This is the first section  */
+.hero {
+  background: #23272A;
+  background-position: right;
+  padding: 150px 0;
+  text-align: center;
+}
+/* The title secetion text color  */
+.hero h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+/* Title section sub text */
+.hero p {
+  font-size: 24px;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+/* This is the styling for the containers for ecah section */
+.container {
+  max-width: 90%;
+  text-align: center;
+}
+
+/* Title for Product List  */
+#catalog h1 {
+  color: white;
+  font-weight: bold;
+}
+/* Custom card styling */
+
+.product-card {
+  border: solid #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  background-color: #2C2F33;
+  margin-bottom: 30px;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+/* Product image styling */
+.product-card img {
+  object-fit: scale-down;
+  height: 200px;
+}
+/* Card info  */
+.product-card .card-body {
+  padding: 20px;
+  border-top: #ffffff solid;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+/* Product name  */
+.product-card h5.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+/*  Product Description */
+.product-card p.card-text {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.product-card .btn-primary {
+  font-size: 14px;
+}
+/* End  */
+.footer {
+  background: #23272A;
+  color: white;
+}
+
+.btn-primary {
+  background: #7289DA;
+  border: none;
+  font-weight: bolder;
+}
+
+.footer_button {
+  background: #FFFFFF;
+  color: #7289DA;
+  padding: 10px;
+  margin: 2rem;
+}
